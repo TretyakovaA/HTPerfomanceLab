@@ -1,8 +1,8 @@
-package org.example;
+package main.java.org.example;
 
 import java.io.IOException;
 
-public class task1 {
+public class Task1 {
     public static void main(String[] args) throws IOException {
         int n = Integer.parseInt(args[0]);
         int m = Integer.parseInt(args[1]);
