@@ -2,12 +2,11 @@ package main.java.org.example;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class task2 {
+public class Task2 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(args[0]));
         String str = reader.readLine();
